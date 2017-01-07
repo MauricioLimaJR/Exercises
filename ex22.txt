@@ -1,0 +1,28 @@
+print	print			print some string in the screen
+%d 		--				mean some int value
+%s 		-- 				mean some string
+%r		--				raw representation, for debugging		
+%		--				represents a serie of values in the end of print function
+''or""	quotes			hold a string 
+""" """	three q 		hold a multi lines string
+\       backslash		escape character
+\'		--				Single- quote (')
+\"		--				Double- quote (")
+\a		--				ASCII bell (BEL)
+\b		--				ASCII backspace (BS)
+\f		--				ASCII formfeed (FF)
+\n		--				ASCII linefeed (LF)
+\N{name}--				Character named name in the Unicode database (Unicode only)
+\r		--				ASCII carriage return (CR)
+\t		--				ASCII horizontal tab (TAB)
+\uxxxx	--				Character with 16- bit hex value xxxx (Unicode only)
+\Uxxxxxxxx 				Character with 32- bit hex value xxxxxxxx (Unicode only)
+\v		--				ASCII vertical tab (VT)
+\ooo	--				Character with octal value oo
+\xhh	--				Character with hex value hh
+input() input			take strings from input
+raw_input()				take strings from input with more security
+from ...import ...  	import codes from some place
+sys		--				Package with so many functions of system
+argv  	argument variab	holds the arguments passed in script in runtime
+open()	open			open
