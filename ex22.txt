@@ -25,4 +25,14 @@ raw_input()				take strings from input with more security
 from ...import ...  	import codes from some place
 sys		--				Package with so many functions of system
 argv  	argument variab	holds the arguments passed in script in runtime
-open()	open			open
+open()	open			open a text file and return as a
+						file object
+read()  read			returns a string from text file
+readline()				read the file until find \n
+readlines([size])		read the [size] amount of lines
+next()	next			the next value
+seek()	seek			0-start 1-current 2-end of file
+tell() 	tell			return the current file position
+truncate()				truncante the file 
+write(s)write			write string s to file
+close()	close			close the filer
